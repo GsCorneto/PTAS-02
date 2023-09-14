@@ -12,6 +12,8 @@ html {
   
   header img{
     vertical-align: middle;
+    max-width: 80px;
+    max-height: 78px ;
   }
   
   nav{
@@ -50,7 +52,7 @@ html {
     border: 1px solid #f46647;
     display: inline-block;
     overflow: hiddem;
-    height: 350px;
+    height: 260px;
     width: 250px;
   }
   .card h2{
@@ -63,19 +65,14 @@ html {
     font-size: 18px;
   }
   .card img {
-    width: 250px;
+    width: 360px;
     height: 165px;
   
   }
   
   img {
-    max-width: 50px;
+    max-width: 120px;
   }
-  
-  
-  
-  
-  
   body{
     background-color: #f993;
     font-family: 'Rancho', 'cursive';
