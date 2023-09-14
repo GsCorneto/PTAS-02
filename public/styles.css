@@ -1,5 +1,84 @@
-h1{
-    padding-left: 35%;
-    color: #b87333
-}
-
+html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header{
+    font-size: 46px;
+    color: rgb(228, 153, 14);
+    background-color: #b8204d;
+    padding: 10px 40px;
+  }
+  
+  header img{
+    vertical-align: middle;
+  }
+  
+  nav{
+    font-size: 22px;
+    background-color: white;
+    filter: drop-shadow(0px 2px 2px #fa6a4a57)
+  }
+  
+  nav ul{
+    list-style-type: none;
+    margin: 0 0 0 50px;
+    padding: 5px 0;
+  }
+  nav li{
+    display: inline;
+    padding-right: 50px;
+  }
+  
+  footer{
+    font-size: 22px;
+    color: white;
+    background-color: #b8204d;
+    padding: 10px 40px;
+  }
+  
+  main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-evenly;
+  }
+  
+  .card{
+    margin: 30px;
+    background-color: #ffff;
+    border: 1px solid #f46647;
+    display: inline-block;
+    overflow: hiddem;
+    height: 350px;
+    width: 250px;
+  }
+  .card h2{
+    padding: 5px;
+    margin: 0;
+  }
+  .card p{
+    padding: 5px;
+    margin: 0;
+    font-size: 18px;
+  }
+  .card img {
+    width: 250px;
+    height: 165px;
+  
+  }
+  
+  img {
+    max-width: 50px;
+  }
+  
+  
+  
+  
+  
+  body{
+    background-color: #f993;
+    font-family: 'Rancho', 'cursive';
+    margin: 0;
+    padding: 0;
+  }
