@@ -8,6 +8,7 @@ html {
     color: rgb(228, 153, 14);
     background-color: #b8204d;
     padding: 10px 40px;
+  
   }
   
   header img{
@@ -34,7 +35,7 @@ html {
   
   footer{
     font-size: 22px;
-    color: white;
+    color: rgb(228, 153, 14);
     background-color: #b8204d;
     padding: 10px 40px;
   }
@@ -51,7 +52,7 @@ html {
     background-color: #ffff;
     border: 1px solid #f46647;
     display: inline-block;
-    overflow: hiddem;
+    overflow: hidden;
     height: 260px;
     width: 250px;
   }
@@ -65,8 +66,8 @@ html {
     font-size: 18px;
   }
   .card img {
-    width: 360px;
-    height: 165px;
+    width: 75%;
+    height: 67%;
   
   }
   
@@ -79,3 +80,5 @@ html {
     margin: 0;
     padding: 0;
   }
+
+  
