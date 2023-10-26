@@ -4,10 +4,11 @@ html {
   }
   
   header{
-    font-size: 46px;
+    font-size: 24px;
     color: rgb(228, 153, 14);
     background-color: #b8204d;
     padding: 10px 40px;
+    text-align: center;
   
   }
   
@@ -53,8 +54,8 @@ html {
     border: 1px solid #f46647;
     display: inline-block;
     overflow: hidden;
-    height: 260px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
   }
   .card h2{
     padding: 5px;
@@ -66,9 +67,9 @@ html {
     font-size: 18px;
   }
   .card img {
-    width: 75%;
-    height: 67%;
-  
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
   }
   
   img {
