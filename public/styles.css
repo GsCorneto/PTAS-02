@@ -4,18 +4,18 @@ html {
   }
   
   header{
-    font-size: 24px;
+    font-size: 45px;
     color: rgb(228, 153, 14);
     background-color: #b8204d;
     padding: 10px 40px;
     text-align: center;
-  
   }
   
   header img{
     vertical-align: middle;
     max-width: 80px;
     max-height: 78px ;
+    
   }
   
   nav{
@@ -56,10 +56,12 @@ html {
     overflow: hidden;
     height: 300px;
     width: 300px;
+    border-radius: 25px;
   }
   .card h2{
-    padding: 5px;
+    padding-left: 80px;
     margin: 0;
+    color:#b89520;
   }
   .card p{
     padding: 5px;
@@ -69,7 +71,7 @@ html {
   .card img {
     width: 200px;
     height: 200px;
-    padding-left: 10px;
+    padding-left: 85px;
   }
   
   img {
@@ -85,7 +87,7 @@ html {
   .travel{ 
      background-color: cadetblue;
      border-radius: 25px;
-     color: aliceblue
+     color: rgb(17, 49, 77);
 
   }
 

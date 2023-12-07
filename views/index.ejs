@@ -5,36 +5,41 @@
   <link rel="stylesheet" type="text/css" href="/styles.css">
   
 </head>
+
 <header>
-  <img src="/cheese-svgrepo-com.svg" alt="queso"> Vitor Salmonela
+    Vitor Salmonela
 </header>
-  <h1>Grande Vendedor de Queijos</h1>
 
-  <p>Confira alguns de nossos queijos deliciosos!</p>
-
+<nav>
+  <ul>
+     <li>
+        Realizamos entrega domicilar
+     </li>
+     <li>
+        Melhor frete do país
+     </li>
+     <li>
+        Experimente nossos laticínios
+     </li>
+     <li>
+        Queijos de variadas maneiras
+     </li>
+  </ul>
+</nav>
+   
+<body>
   <main>
-    <div class="card">
-      <img src="/images/gorgo.jpg">
-      <h2>Queijo gorgonzola</h2>
-      <p>Derretido é uma delícia</p>
-      <a href="/queijo"; class = "travel">Ver Produto</a>
-    </div>
 
-   <div class="card">
-      <img src="/images/coalho.jpg">
-      <h2>Queijo coalho</h2>
-      <p>é BÃO no churras</p>
-      <a href="/queijo"; class = "travel">Ver Produto</a>
-    </div>
+    <% for (let produto of produtos) { %>
+      <div class="card">
+        <img src="<%= produto.imagem%>">
+        <h2><%= produto.nome%></h2>
+        <a class="button" href="/produtos/<%= produto.id%>"; class = "travel">Ver Produto</a>
+      </div>
+   <% } %>
 
-    <div class="card">
-      <img src="/images/gouda.jpg">
-      <h2>Queijo gouda</h2>
-      <p>QUEIJO muito bão slk RECEBA</p>
-      <a href="/queijo"; class = "travel">Ver Produto</a>
-    </div>
   </main>
-
+</body>
   <footer>
     Um grande site de queijos :) 
     </footer>
